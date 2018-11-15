@@ -1,0 +1,167 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  background-color: rgb(185, 173, 173);
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Allerta Stencil', sans-serif;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+header {
+  color: rgb(229, 226, 226);
+  background-color: rgba(51, 51, 50, 0.788);
+  width: 100%;
+  margin-bottom: 10px;
+  position: fixed;
+  z-index: 10;
+  padding: 5px 0px;
+}
+
+header img{
+    height: 20px;
+}
+
+header a{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+header nav {
+  float:right;
+}
+
+header h1 {
+    font-family: 'Allerta Stencil', sans-serif;
+    float:left;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+nav li{
+  display: inline;
+  padding: 50px 20px;
+  margin: 20px;
+}
+
+nav li:hover {
+  background: rgba(230, 169, 0, 0.103);
+  color: #FFF;
+}
+
+main {
+  position: relative;
+  top: 70px;
+  margin: 0% 10% 0% 10%;
+  background-color: azure;
+  padding: 10px;
+  background-image: repeating-linear-gradient(teal);
+}
+#prolog{
+    float: center;
+    align-items: center;
+    color: lightgrey;
+    background-color: tomato;
+    margin: 15%;
+    padding: 5%;
+    width: 75%;
+    border-radius: 15px;
+}
+
+#prolog img{
+  float:left;
+  height: 100px;
+  padding: 5px;
+}
+#prolog p{
+    font-family: 'Slabo 27px', serif;
+    text-align: justify;
+}
+a:link {
+    color: rgb(242, 244, 247);
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(215, 217, 219);
+    text-decoration: none;
+}
+
+#registration {
+    top: 15%;
+    bottom: 10%;
+    height: 75%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+#registration button{
+    background-color: aqua;
+    border: #FFF;
+    height: 30px;
+}
+#registration input{
+    color: antiquewhite;
+    height: 5%;
+    width: 50%;
+    border-color: aquamarine;
+    border-radius: 1px; 
+    background-color: rgb(253, 238, 238);
+}
+#reading{
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 5%;
+    background-color: aquamarine; 
+}
+#reading img{
+    height: 450px;
+    border-radius: 15px;
+    margin: 5px;
+    background-color: black;
+}
+#teams {
+  background-image: linear-gradient(rgba(255, 168, 0, 0.5),rgba(0, 0, 0, 0.5)),url(./images/eventbackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 400px;
+}
+#teams img{
+    width: 200px;
+}
+#teams div{
+  width: 25%;
+}
+#team li{
+    width: 75px;
+    font-size: 50px;
+}
+
+
+footer {
+  margin-top: 100px;
+  background-color: rgba(51, 51, 50, 0.788);;
+  color: white;
+  text-align: center;
+}
+
+footer p {
+  padding: 30px;
+  margin-bottom: 0px;
+  font-size: 18px;
+  font-weight: lighter;
+}
